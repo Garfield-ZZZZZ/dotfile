@@ -7,3 +7,7 @@ echo "# end inserted from dotfiles" >> $aliasFile
 echo installing vim
 apt-get update
 apt-get install -y vim
+
+echo copying .vimrc
+cp ./vimrc ~/.vimrc
+
