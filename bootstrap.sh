@@ -1,7 +1,7 @@
 aliasFile="$HOME/.bashrc"
 echo inserting aliases to $aliasFile
 echo "# start inserted from dotfiles" >> $aliasFile
-echo "alias ll='ls alFh --color'" >> $aliasFile
+echo "alias ll='ls -alFh --color'" >> $aliasFile
 echo "# end inserted from dotfiles" >> $aliasFile
 
 echo installing vim
